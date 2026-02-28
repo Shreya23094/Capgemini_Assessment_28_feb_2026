@@ -1,4 +1,4 @@
-package org.example;
+package org.example.StreamAPI;
 
 import java.sql.Date;
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ public class CarRepository {
 
     static List<Car> cars = new ArrayList<>();
 
-    static List<org.example.Owner> owners = new ArrayList<>();
+    static List<Owner> owners = new ArrayList<>();
 
     static {
 
@@ -40,23 +40,23 @@ public class CarRepository {
 
 
 
-        owners.add(new org.example.Owner(21, "Sumit", "male", List.of(cars.get(0), cars.get(1))));
+        owners.add(new Owner(21, "Sumit", "male", List.of(cars.get(0), cars.get(1))));
 
-        owners.add(new org.example.Owner(12, "vipin", "male", null));
+        owners.add(new Owner(12, "vipin", "male", null));
 
-        owners.add(new org.example.Owner(26, "Rajni", "female", List.of(cars.get(7), cars.get(6), cars.get(3))));
+        owners.add(new Owner(26, "Rajni", "female", List.of(cars.get(7), cars.get(6), cars.get(3))));
 
-        owners.add(new org.example.Owner(35, "Amita", "female", List.of(cars.get(4), cars.get(8))));
+        owners.add(new Owner(35, "Amita", "female", List.of(cars.get(4), cars.get(8))));
 
-        owners.add(new org.example.Owner(96, "Ram", "male", List.of(cars.get(9))));
+        owners.add(new Owner(96, "Ram", "male", List.of(cars.get(9))));
 
-        owners.add(new org.example.Owner(48, "Krishan", "male", List.of(cars.get(10))));
+        owners.add(new Owner(48, "Krishan", "male", List.of(cars.get(10))));
 
-        owners.add(new org.example.Owner(22, "Deepak", "male", List.of(cars.get(11))));
+        owners.add(new Owner(22, "Deepak", "male", List.of(cars.get(11))));
 
-        owners.add(new org.example.Owner(51, "Geeta", "female", null));
+        owners.add(new Owner(51, "Geeta", "female", null));
 
-        owners.add(new org.example.Owner(63, "Sachin", "male", null));
+        owners.add(new Owner(63, "Sachin", "male", null));
 
 
 
@@ -72,7 +72,7 @@ public class CarRepository {
 
 
 
-    public static List<org.example.Owner> getOwners() {
+    public static List<Owner> getOwners() {
 
         return owners;
 

@@ -1,8 +1,8 @@
-package org.example;
+package org.example.StreamAPI;
 
 
 
-import org.example.Car;
+import Car;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.StreamAPI;
 import java.sql.Date;
 
 public class Car {
